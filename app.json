@@ -1,0 +1,27 @@
+{
+    "expo": {
+     "name": "Hora do serviço!",
+     "icon": "./assets/logo.png",
+     "splash": {
+        "image" : "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#121515"
+     },
+     "version": "1.0.0",
+     "slug": "hora-do-servico",
+     "platforms": [
+         "ios",
+         "android"
+     ],
+     "ios": {
+       "bundleIdentifier": "com.horadoservico",
+       "buildNumber": "1.0.0"
+     },
+     "android": {
+       "package": "com.horadoservico",
+       "versionCode": 1,
+       "googleServicesFile": "./google-services.json",
+        "useNextNotificationsApi":true
+     }
+    }
+  }
